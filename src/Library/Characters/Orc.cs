@@ -123,7 +123,7 @@ namespace Library
         }
 
         //Este metodo ataca a un enano
-        /* public void Attack(Dwarf enemy)
+        public void Attack(Dwarf enemy)
         {
             Console.WriteLine($"{this.Name} ataca a {enemy.Name}");
             enemy.ReceiveAttack(this.TotalDamage());
@@ -136,13 +136,13 @@ namespace Library
             {
                 Console.WriteLine($"{enemy.Name} tiene {enemy.Health} de vida.");
             }
-        } */
+        }
 
-        /* public void HealDwarf(Dwarf character)
+        public void HealDwarf(Dwarf character)
         {
             character.Health = character.InitialHealth;
             Console.WriteLine($"{character.Name} ahora tiene {character.Health} de vida.");
-        } */
+        }
 
     }
 }

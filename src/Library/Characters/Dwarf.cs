@@ -144,10 +144,10 @@ namespace Library
         }
 
          //Método que incrementa la vida de un mago:
-        /*  public void HealWizard(Wizard character)
+        public void HealWizard(Wizard character)
         {
             character.Health = character.InitialHealth;
             Console.WriteLine($"{character.Name} ahora tiene {character.Health} de vida.");
-        } */
+        } 
     }
 }

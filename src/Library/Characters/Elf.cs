@@ -105,7 +105,7 @@ namespace Library
            return totalProtection;
         }
         //Este metodo ataca a un orco:
-        /* public void Attack(Orc enemy)
+        public void Attack(Orc enemy)
         {
             Console.WriteLine($"{this.Name} ataca a {enemy.Name}");
             enemy.ReceiveAttack(this.TotalDamage());
@@ -118,8 +118,8 @@ namespace Library
             {
                 Console.WriteLine($"{enemy.Name} tiene {enemy.Health} de vida.");
             }
-        } */
-        /* public void ReceiveAttack(int damage)
+        }
+        public void ReceiveAttack(int damage)
         {
         
             if (this.InvisibilityCloak != null || this.Bow != null)
@@ -138,12 +138,12 @@ namespace Library
             {
                 this.Health -= damage;
             }
-        } */
-        /* public void HealOrc(Orc character)
+        }
+        public void HealOrc(Orc character)
         {
             character.Health = character.InitialHealth;
             Console.WriteLine($"{character.Name} ahora tiene {character.Health} de vida.");
-        } */
+        }
 
     }
 
